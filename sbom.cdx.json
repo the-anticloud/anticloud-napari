@@ -1,0 +1,152 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:17d694d1-68de-5750-9e8e-0a7a0736bc25",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:19:28Z",
+  "component": {
+   "type": "application",
+   "name": "NAPARI",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/NAPARI@83b357604d34",
+   "purl": "pkg:generic/anticloud/NAPARI@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "app-model",
+   "version": ">=0.5.0",
+   "purl": "pkg:pypi/app-model@0.5.0",
+   "bom-ref": "pypi/app-model@>=0.5.0"
+  },
+  {
+   "type": "library",
+   "name": "cachey",
+   "version": ">=0.2.1",
+   "purl": "pkg:pypi/cachey@0.2.1",
+   "bom-ref": "pypi/cachey@>=0.2.1"
+  },
+  {
+   "type": "library",
+   "name": "certifi",
+   "version": ">=2018.1.18",
+   "purl": "pkg:pypi/certifi@2018.1.18",
+   "bom-ref": "pypi/certifi@>=2018.1.18"
+  },
+  {
+   "type": "library",
+   "name": "napari",
+   "version": "unspecified",
+   "purl": "pkg:generic/napari",
+   "bom-ref": "conda/napari@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "desktop-server",
+   "version": "unspecified",
+   "purl": "pkg:generic/desktop-server",
+   "bom-ref": "conda/desktop-server@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python",
+   "version": "3.12",
+   "purl": "pkg:generic/python@3.12",
+   "bom-ref": "conda/python@3.12"
+  },
+  {
+   "type": "library",
+   "name": "forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/forge",
+   "bom-ref": "conda/forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "fsspec",
+   "version": "unspecified",
+   "purl": "pkg:generic/fsspec",
+   "bom-ref": "conda/fsspec@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyqt6",
+   "version": "unspecified",
+   "purl": "pkg:generic/pyqt6",
+   "bom-ref": "conda/pyqt6@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scikit-image",
+   "version": "unspecified",
+   "purl": "pkg:generic/scikit-image",
+   "bom-ref": "conda/scikit-image@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "zarr",
+   "version": "unspecified",
+   "purl": "pkg:generic/zarr",
+   "bom-ref": "conda/zarr@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "websockify",
+   "version": "unspecified",
+   "purl": "pkg:generic/websockify",
+   "bom-ref": "conda/websockify@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "jupyter-remote-desktop-proxy",
+   "version": "unspecified",
+   "purl": "pkg:generic/jupyter-remote-desktop-proxy",
+   "bom-ref": "conda/jupyter-remote-desktop-proxy@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
